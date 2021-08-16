@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityUpdate">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="95dp">
+
+        <ImageView
+            android:id="@+id/imgdaidienanh"
+            android:layout_width="179dp"
+            android:layout_height="254dp"
+            tools:src="@tools:sample/avatars" />
+
+        <Button
+            android:id="@+id/btnChupAnh"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="49dp"
+            android:layout_marginEnd="46dp"
+            android:text="Chụp Ảnh" />
+
+        <Button
+            android:id="@+id/btnThemAnh"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="133dp"
+            android:layout_marginEnd="46dp"
+            android:text="Chọn Ảnh" />
+
+        <EditText
+            android:id="@+id/edtTuaCD"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="281dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtDonGia"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="202dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtSoLuong"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="-2dp"
+            android:layout_marginBottom="118dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnsua"
+            android:layout_width="107dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="251dp"
+            android:layout_marginBottom="38dp"
+            android:text="Sửa" />
+
+        <Button
+            android:id="@+id/btnhuy"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="49dp"
+            android:layout_marginBottom="36dp"
+            android:text="HỦY" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
